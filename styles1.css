@@ -1,0 +1,31 @@
+.home-bg {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-bg img {
+  width: 100%;
+}
+
+footer {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
+
+h1 {
+    font-family: Helvetica;
+    color: white;
+}
+
+h2 {
+    font-family: Helvetica;
+    color: white;
+    font-size: 14px;
+}
+
+p {
+    font-family: Helvetica;
+    color: white;
+}
