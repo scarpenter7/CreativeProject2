@@ -8,10 +8,23 @@
   width: 100%;
 }
 
+body {
+  background-image: url(images/radiohead_bg.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
+  margin-top: auto;
   padding: 10px;
   background-color: gray;
   color: white;
+  border-radius: 15px;
+  opacity: 0.9;
+  border: 2px solid black;
 }
 
 h1 {
@@ -29,3 +42,4 @@ p {
     font-family: Helvetica;
     color: white;
 }
+
