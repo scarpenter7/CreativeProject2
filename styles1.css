@@ -1,0 +1,60 @@
+.home-bg {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-bg img {
+  width: 100%;
+}
+
+body {
+  background-image: url(images/landscape.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #b8bde5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #ffe6db;
+  color: black;
+  border-radius: 15px;
+  opacity: 0.8;
+  border: 2px solid black;
+}
+
+h1 {
+    font-family: Helvetica;
+    color: black;
+}
+
+h2 {
+    font-family: Helvetica;
+    color: white;
+    font-size: 14px;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    
+  }
+}
