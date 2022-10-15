@@ -19,7 +19,7 @@ document.getElementById("getImage").addEventListener("click", function(event) {
 });
 
 
-document.getElementById("getGIF").addEventListener("click", function(event) {
+document.getElementById("getGif").addEventListener("click", function(event) {
     event.preventDefault();
     console.log("get GIF has been clicked!");
     
